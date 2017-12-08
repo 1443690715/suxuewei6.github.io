@@ -157,7 +157,7 @@ function timeElapse(date, mode) {
 
 function showMessages() {
     adjustWordsPosition();
-    $('#messages').fadeIn(5000, function() {
+    $('#messages').fadeIn(3000, function() {
         showLoveU();
     });
 }
@@ -175,8 +175,8 @@ function adjustCodePosition() {
 function showLoveU() {
     $('#loveu').fadeIn(3000);
     setTimeout(function() {
-        $('#loveu').fadeTo(3000, 0);
-        $('#cake').fadeIn(3000);
+       // $('#loveu').fadeTo(3000, 0);
+       // $('#cake').fadeIn(3000);
     }, 8000);
     
 }
