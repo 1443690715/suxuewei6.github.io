@@ -1,11 +1,11 @@
 $('#login-button').click(function (event) {
     var userName=document.getElementById("userName").value;  
-    if(userName=="苏雪薇") { 
+    if("a"=="a") { 
         event.preventDefault();
         $('form').fadeOut(500);
         $('#name-text').fadeIn(2000);
         $('.wrapper').addClass('form-success');
-        setTimeout(function(){location.href="cake.html";},3500);
+        setTimeout(function(){location.href="cake.html";},1000);
     }
     else {
         if(userName!="叶梦瑶") {
